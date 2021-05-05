@@ -1,0 +1,55 @@
+# Compile of Lab_2.vhd was successful.
+# Compile of deco_3_a_8.vhd was successful.
+# Compile of mux_4_a_1.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.lab_2
+# vsim -gui work.lab_2 
+# Start time: 17:48:36 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.lab_2(principal)
+# Loading work.mux_4_a_1(mux)
+# ** Warning: (vsim-3473) Component instance "u2 : deco_bcd_a_7_seg" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_2 File: D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/Lab_2.vhd
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:D:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+force CONT1 0000
+force CONT2 0001
+force CONT3 0010
+force CONT4 0100
+RUN 100
+# invalid command name "RUN"
+run 100
+force SEL_P 00
+run 1000
+run 1000
+run 1000
+quit -sim
+# End time: 17:53:07 on May 04,2021, Elapsed time: 0:04:31
+# Errors: 0, Warnings: 3
+vsim -gui work.deco_3_a_8 work.lab_2 work.mux_4_a_1
+# vsim -gui work.deco_3_a_8 work.lab_2 work.mux_4_a_1 
+# Start time: 17:53:25 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.deco_3_a_8(dec)
+# Loading work.lab_2(principal)
+# Loading work.mux_4_a_1(mux)
+# ** Warning: (vsim-3473) Component instance "u2 : deco_bcd_a_7_seg" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_2 File: D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/Lab_2.vhd
+force CONT1 0000
+force CONT2 0001
+force CONT3 0010
+force CONT4 0100
+force SEL_P 00
+run 100
+run 100
+# End time: 17:56:17 on May 04,2021, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 2

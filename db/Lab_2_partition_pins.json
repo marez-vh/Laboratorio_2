@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SAL_P[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAL_P[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAL_P[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAL_P[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAL_P[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAL_P[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAL_P[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL_P[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEL_P[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CONT1[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

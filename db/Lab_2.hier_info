@@ -1,0 +1,112 @@
+|Lab_2
+CONT1[0] => mux_4_a_1:t:0:u1.ENT[3]
+CONT1[1] => mux_4_a_1:t:1:u1.ENT[3]
+CONT1[2] => mux_4_a_1:t:2:u1.ENT[3]
+CONT1[3] => mux_4_a_1:t:3:u1.ENT[3]
+CONT2[0] => mux_4_a_1:t:0:u1.ENT[2]
+CONT2[1] => mux_4_a_1:t:1:u1.ENT[2]
+CONT2[2] => mux_4_a_1:t:2:u1.ENT[2]
+CONT2[3] => mux_4_a_1:t:3:u1.ENT[2]
+CONT3[0] => mux_4_a_1:t:0:u1.ENT[1]
+CONT3[1] => mux_4_a_1:t:1:u1.ENT[1]
+CONT3[2] => mux_4_a_1:t:2:u1.ENT[1]
+CONT3[3] => mux_4_a_1:t:3:u1.ENT[1]
+CONT4[0] => mux_4_a_1:t:0:u1.ENT[0]
+CONT4[1] => mux_4_a_1:t:1:u1.ENT[0]
+CONT4[2] => mux_4_a_1:t:2:u1.ENT[0]
+CONT4[3] => mux_4_a_1:t:3:u1.ENT[0]
+SEL_P[0] => mux_4_a_1:t:3:u1.SEL[0]
+SEL_P[0] => mux_4_a_1:t:2:u1.SEL[0]
+SEL_P[0] => mux_4_a_1:t:1:u1.SEL[0]
+SEL_P[0] => mux_4_a_1:t:0:u1.SEL[0]
+SEL_P[1] => mux_4_a_1:t:3:u1.SEL[1]
+SEL_P[1] => mux_4_a_1:t:2:u1.SEL[1]
+SEL_P[1] => mux_4_a_1:t:1:u1.SEL[1]
+SEL_P[1] => mux_4_a_1:t:0:u1.SEL[1]
+SAL_P[6] << deco_bcd_a_7_seg:u2.SAL[6]
+SAL_P[5] << deco_bcd_a_7_seg:u2.SAL[5]
+SAL_P[4] << deco_bcd_a_7_seg:u2.SAL[4]
+SAL_P[3] << deco_bcd_a_7_seg:u2.SAL[3]
+SAL_P[2] << deco_bcd_a_7_seg:u2.SAL[2]
+SAL_P[1] << deco_bcd_a_7_seg:u2.SAL[1]
+SAL_P[0] << deco_bcd_a_7_seg:u2.SAL[0]
+
+
+|Lab_2|mux_4_a_1:\t:3:u1
+ENT[0] => Mux0.IN3
+ENT[1] => Mux0.IN2
+ENT[2] => Mux0.IN1
+ENT[3] => Mux0.IN0
+SAL <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+SEL[0] => Mux0.IN5
+SEL[1] => Mux0.IN4
+
+
+|Lab_2|mux_4_a_1:\t:2:u1
+ENT[0] => Mux0.IN3
+ENT[1] => Mux0.IN2
+ENT[2] => Mux0.IN1
+ENT[3] => Mux0.IN0
+SAL <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+SEL[0] => Mux0.IN5
+SEL[1] => Mux0.IN4
+
+
+|Lab_2|mux_4_a_1:\t:1:u1
+ENT[0] => Mux0.IN3
+ENT[1] => Mux0.IN2
+ENT[2] => Mux0.IN1
+ENT[3] => Mux0.IN0
+SAL <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+SEL[0] => Mux0.IN5
+SEL[1] => Mux0.IN4
+
+
+|Lab_2|mux_4_a_1:\t:0:u1
+ENT[0] => Mux0.IN3
+ENT[1] => Mux0.IN2
+ENT[2] => Mux0.IN1
+ENT[3] => Mux0.IN0
+SAL <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+SEL[0] => Mux0.IN5
+SEL[1] => Mux0.IN4
+
+
+|Lab_2|deco_bcd_a_7_seg:u2
+ENT[0] => Mux0.IN19
+ENT[0] => Mux1.IN19
+ENT[0] => Mux2.IN19
+ENT[0] => Mux3.IN19
+ENT[0] => Mux4.IN19
+ENT[0] => Mux5.IN19
+ENT[0] => Mux6.IN19
+ENT[1] => Mux0.IN18
+ENT[1] => Mux1.IN18
+ENT[1] => Mux2.IN18
+ENT[1] => Mux3.IN18
+ENT[1] => Mux4.IN18
+ENT[1] => Mux5.IN18
+ENT[1] => Mux6.IN18
+ENT[2] => Mux0.IN17
+ENT[2] => Mux1.IN17
+ENT[2] => Mux2.IN17
+ENT[2] => Mux3.IN17
+ENT[2] => Mux4.IN17
+ENT[2] => Mux5.IN17
+ENT[2] => Mux6.IN17
+ENT[3] => Mux0.IN16
+ENT[3] => Mux1.IN16
+ENT[3] => Mux2.IN16
+ENT[3] => Mux3.IN16
+ENT[3] => Mux4.IN16
+ENT[3] => Mux5.IN16
+ENT[3] => Mux6.IN16
+SAL[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+SAL[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+SAL[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+SAL[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+SAL[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+SAL[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+SAL[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

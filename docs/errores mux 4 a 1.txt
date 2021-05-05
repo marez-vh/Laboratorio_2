@@ -1,0 +1,8 @@
+Error (10500): VHDL syntax error at mux_4_a_1.vhd(15) near text "architecture";  expecting ";"
+Error (10500): VHDL syntax error at mux_4_a_1.vhd(19) near text "when";  expecting "(", or "'", or "."
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 1 warning
+	Error: Peak virtual memory: 4787 megabytes
+	Error: Processing ended: Wed Apr 21 02:23:24 2021
+	Error: Elapsed time: 00:00:44
+	Error: Total CPU time (on all processors): 00:01:11
+Error (293001): Quartus Prime Full Compilation was unsuccessful. 4 errors, 1 warning

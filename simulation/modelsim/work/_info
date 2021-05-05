@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/quartus
+Edeco_3_a_8
+Z0 w1618967831
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dD:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/simulation/modelsim
+Z4 8D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_3_a_8.vhd
+Z5 FD:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_3_a_8.vhd
+l0
+L8 1
+VW^W??7LBcfoddS^UzAHE>1
+!s100 KI:IDBVHSeFI:00`c^<1m1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1618976258
+!i10b 1
+Z8 !s108 1618976257.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_3_a_8.vhd|
+Z10 !s107 D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_3_a_8.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adec
+R1
+R2
+DEx4 work 10 deco_3_a_8 0 22 W^W??7LBcfoddS^UzAHE>1
+!i122 0
+l17
+L15 16
+V073>]]moZhfmM0=Z?VhH31
+!s100 >gJQTCUBbaBD?Ek0Bz8QG3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edeco_bcd_a_7_seg
+Z13 w1618978449
+R1
+R2
+!i122 1
+R3
+Z14 8D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_bcd_a_7_seg.vhd
+Z15 FD:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_bcd_a_7_seg.vhd
+l0
+L8 1
+VEicCL2T9mK2];@D8Z`LEg3
+!s100 d5>UciATR:SW<de`n0lY23
+R6
+32
+Z16 !s110 1618980021
+!i10b 1
+Z17 !s108 1618980020.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_bcd_a_7_seg.vhd|
+Z19 !s107 D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_bcd_a_7_seg.vhd|
+!i113 1
+R11
+R12
+Adec
+R1
+R2
+DEx4 work 16 deco_bcd_a_7_seg 0 22 EicCL2T9mK2];@D8Z`LEg3
+!i122 1
+l15
+L14 16
+V7B[Mf=o@7moag:J6<=@@H1
+!s100 7[?]0lkX0P<iEaEJ1IWL40
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Edeco_hexa_a_7_seg
+Z20 w1618981390
+R1
+R2
+!i122 2
+R3
+Z21 8D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_hexa_a_7_seg.vhd
+Z22 FD:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_hexa_a_7_seg.vhd
+l0
+L11 1
+Vo4zXJ:ljki@:UhO9ene>>2
+!s100 d7G>QKnZT4`<5g5T?1llI1
+R6
+32
+Z23 !s110 1618981742
+!i10b 1
+Z24 !s108 1618981742.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_hexa_a_7_seg.vhd|
+Z26 !s107 D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/deco_hexa_a_7_seg.vhd|
+!i113 1
+R11
+R12
+Adec
+R1
+R2
+DEx4 work 17 deco_hexa_a_7_seg 0 22 o4zXJ:ljki@:UhO9ene>>2
+!i122 2
+l20
+L19 22
+Vj^kC<<Fo=nE^lNi5l]=bk3
+!s100 f7^W4kJ^5V:zakFm5DG]>2
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Emux_4_a_1
+Z27 w1618985124
+R1
+R2
+!i122 6
+R3
+Z28 8D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/mux_4_a_1.vhd
+Z29 FD:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/mux_4_a_1.vhd
+l0
+L8 1
+VQ[_^ejOViUV7R1K>4Ya7]2
+!s100 m]KbT5h]C[g@:6c[6DNQQ3
+R6
+32
+Z30 !s110 1618986418
+!i10b 1
+Z31 !s108 1618986417.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/mux_4_a_1.vhd|
+Z33 !s107 D:/Facultad/2021/VHDL FPGA/Laboratorios/Lab_2/rtl_src/mux_4_a_1.vhd|
+!i113 1
+R11
+R12
+Amux
+R1
+R2
+Z34 DEx4 work 9 mux_4_a_1 0 22 Q[_^ejOViUV7R1K>4Ya7]2
+!i122 6
+l16
+Z35 L15 10
+Z36 VAQRUQO25ZXD;5XNz]hW5:3
+Z37 !s100 =>C5A7>JchMARI[^3fcQn1
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
